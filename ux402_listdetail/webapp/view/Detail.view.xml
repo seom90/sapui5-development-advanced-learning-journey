@@ -1,0 +1,29 @@
+<mvc:View controllerName="studentseom.com.sap.training.ux402.listdetail.ux402listdetail.controller.Detail"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:ux="sap.uxap"
+    xmlns:layout="sap.ui.layout">
+
+    <ux:ObjectPageLayout id="ObjectPageLayout" >
+        <ux:headerTitle>
+            <ux:ObjectPageHeader id="ObjectPageHeader" objectTitle="Object Page Title"
+                                 objectSubtitle="Object Page Subtitle">
+                <ux:actions>
+                    <Button id="Button1" text="Action 1"/>
+                    <Button id="Button2" text="Action 2"/>
+                </ux:actions>
+            </ux:ObjectPageHeader>
+        </ux:headerTitle>
+
+        <ux:sections>
+            <ux:ObjectPageSection id="ObjectPageSection" title="Section 1">
+                <ux:subSections>
+                    <ux:ObjectPageSubSection id="ObjectPageSubSection" title="Subsection 1">
+                        <Text id="Text1" text="Content for Subsection 1"/>
+                    </ux:ObjectPageSubSection>
+                </ux:subSections>
+            </ux:ObjectPageSection>
+        </ux:sections>
+    </ux:ObjectPageLayout>
+
+</mvc:View>
